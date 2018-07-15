@@ -3,7 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from './app/reducers';
-import { Header } from './app/components/common'
+import { Header } from './app/components/common';
+import LibraryList from './app/components/LibraryList';
 
 export default class App extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends React.Component {
       <Provider store = {createStore(reducers)}>
       <View style={styles.container}>
         <Header headerText = "Tech Stack" />
+        <LibraryList/>
       </View>
       </Provider>
     );
