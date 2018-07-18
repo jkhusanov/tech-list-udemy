@@ -3,4 +3,4 @@ Simple app, following Udemy [The Complete React Native and Redux Course](https:/
 ## Main Goal
 Getting started with Redux, and going towards production level usage of Redux with React Native. 
 ## Demo
-![Demo gif](https://github.com/jkhusanov/tech-list-udemy/demo.gif)
+![Demo gif](https://github.com/jkhusanov/tech-list-udemy/blob/master/demo.gif)
